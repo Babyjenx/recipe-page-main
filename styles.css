@@ -1,72 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: hsl(30, 54%, 90%);
-    font-family: "Outfit";
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Outfit' , sans-serif;
+    background-color: hsl(30, 54%, 90%);
     line-height: 1.5;
-    color: hsl(24, 5%, 18%);
-}
-
-.recipe-card {
-    width: 650px;
-    background-color: white;
-    padding: 40px;
-    border-radius: 18px;
-    margin: 200px;
-}
-
-.recipe-image {
-    max-width: 100%;
-    border-radius: 12px;
-    margin-bottom: 20px;
 }
 
 h1 {
-    margin: auto;
-    font-family: "Young Serif";
+    font-family: 'Young Serif' , serif;
     font-size: 2.5rem;
     font-weight: 400;
-    margin-bottom: 12px;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
-h2{
-    font-family: "Young Serif";
+h2 {
+    font-family: 'Young Serif' , serif;
+    font-size: 2rem;
     color: hsl(14, 45%, 36%);
-    margin-top: 25px;
-    font-size: 1.7rem;
+    padding: 25px 0px ;
 }
 
 h3 {
-    margin: auto;
-    margin-bottom: 10px;
     color: hsl(332, 51%, 32%);
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
 }
 
 ul {
-    margin: auto;
+    padding-left: 25px;
 }
+
+li:first-child {
+    padding-top: 0px;
+}
+
+ol {
+    padding-left: 25px;
+}
+
 
 li {
-    padding-left: 15px;
-    margin: 10px 0px;
+    padding-top: 13px;
+    padding-left: 25px;
 }
+
 
 li::marker {
-    color: hsl(332, 51%, 32%);
+    color: hsl(14, 45%, 36%);
     font-weight: bold;
-  }
-
-
-
-.prep-time {
-    background-color: hsl(330, 100%, 98%);
-    margin-top: 32px;
-    margin-bottom: 25px;
-    padding: 25px;
-    border-radius: 10px;
 }
+
+.preptime li::marker {
+    color:  hsl(332, 51%, 32%);
+}
+
+.card {
+    background-color: white;
+    max-width: 650px;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+   
+}
+
+.preptime {
+    background-color: hsl(330, 100%, 98%);
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+
+
 
 hr {
     margin-top: 35px;
@@ -101,3 +119,5 @@ tr:nth-child(4) {
 tr:last-child td {
     padding-bottom: 0;
 }
+
+
