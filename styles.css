@@ -34,7 +34,7 @@ h1 {
 h2{
     font-family: "Young Serif";
     color: hsl(14, 45%, 36%);
-    margin-top: 30px;
+    margin-top: 25px;
     font-size: 1.7rem;
 }
 
@@ -78,7 +78,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 tr {
